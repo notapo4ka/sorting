@@ -4,7 +4,7 @@ public class DifferentSorts {
         int temporaryElement = 0;
 
         for (int i = 0; i < numbers.length; i++) {
-            for (int j = 0; j < numbers.length - 1; j++) {
+            for (int j = 0; j < numbers.length - 1 - i; j++) {
                 if (numbers[j] > numbers[j + 1]) {
                     temporaryElement = numbers[j];
                     numbers[j] = numbers[j + 1];
